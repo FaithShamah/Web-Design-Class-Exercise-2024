@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(./exercise.jpeg);
+    background-size: cover;
+    position: relative; 
+}
+
+nav.a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+
+nav.b {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+nav.c {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+nav.d {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+nav.e {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
